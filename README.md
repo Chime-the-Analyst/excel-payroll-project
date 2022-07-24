@@ -25,6 +25,67 @@ To resolve this, I used the MID function to take the part of the text string tha
 
 After I dragged the formula down the column, I noticed another issue. I noticed that as the formula gets to 2 digit numbers, it started returning the space in front of the text and 3 digit numbers like 100 started to return wrong outputs too. Since I said the formula should start from the fourth character, it returned the full stop and empty space with the numbers.
 
+![image](https://user-images.githubusercontent.com/109159668/180644811-60b86455-3157-4bc1-a94a-2a4bd763c9a9.png)
+
+        MID function used with double digits
+
+![image](https://user-images.githubusercontent.com/109159668/180644819-2ecec143-fd30-48ac-a5ff-e8bae87d737b.png)
+
+        MID function used with 3 digits
+
+There are many ways to solve this problem, I chose to concentrate on the ones with full stop. So I used the MID function again to remove the full stop. Then I went ahead to use the TRIM function from the top to remove any leading or trailing spaces.
+
+![image](https://user-images.githubusercontent.com/109159668/180644836-5c38ac30-6944-4289-ba2f-018746b4b400.png)
+
+        TRIM function being used
+
+So with that taken care of, I went ahead to create another column for last names with the same process. Then I added a phone number column to make the dataset realistic. I used the RAND BETWEEN function to create a list of numbers from a certain range.
+
+![image](https://user-images.githubusercontent.com/109159668/180644852-b36e1ef2-7b38-4554-bbf5-2b1c0142588a.png)
+
+        RAND BETWEEN function
+
+Then I added the hourly wage column which is the amount of money the employees are paid per hour. I used 8 different rates to give the dataset some form of variety.
+
+![image](https://user-images.githubusercontent.com/109159668/180644871-c5cd8510-fe6e-4e1a-840e-ceb8cb1f7f1f.png)
+
+        Creating the hourly wage column
+
+Then I added an hour worked column to show the amount of hours worked by employees for the week. The maximum amount of hours an employee can work in a week is 40 hours but some employees did overtime which means they worked extra hours.
+
+![image](https://user-images.githubusercontent.com/109159668/180644887-14221dea-9cc9-487c-88b9-ddd397ffe650.png)
+
+        RAND BETWEEN function in hours worked column
+
+Then finally, I added the pay column, which is a calculated column. The pay is the hours worked multiplied by the hourly wage.
+
+![image](https://user-images.githubusercontent.com/109159668/180644909-abead806-51a6-482b-b736-9a6bfaf632b5.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
