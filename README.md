@@ -75,17 +75,57 @@ After that, I carried out data analysis on the data set to gain insights to answ
 ### Who's the highest paid employee?
 To find out who that was, I used to MAX function on the pay column to find the maximum value.
 
+![image](https://user-images.githubusercontent.com/109159668/180645003-f1ebb273-7f6c-43e3-a8d3-3685151c22c1.png)
 
+        MAX function
 
+With that I could easily identify the employee with the highest pay. Turns out Lily Tiana is breaking the bank.
 
+![image](https://user-images.githubusercontent.com/109159668/180645036-ee09ddf6-643f-4da8-b33d-0309bedb202a.png)
 
+        The highest paid employee
 
+Who's the least paid employee?
+To find out who that is, I used the MIN function. It's the opposite of the MAX function.it returns the smallest numerical value.
 
+![image](https://user-images.githubusercontent.com/109159668/180645053-b93ef9d7-279c-4eb9-8f1e-bd7043da1676.png)
 
+        MIN function
 
+With this function, I could easily identify the least paid employee as Ruby Beatrice. Maybe I'll have a talk with Ruby to ask whether she's ok with the amount she makes
 
+![image](https://user-images.githubusercontent.com/109159668/180645077-e4988535-f4cd-4374-bab2-1819657d4ffe.png)
 
+        The least paid employee
 
+### Total of money paid to employees
+To find the total amount of money paid to employees, I used the SUM function to sum the pay column
+
+![image](https://user-images.githubusercontent.com/109159668/180645116-7d8ddf04-8bde-4e0b-abf2-710c79e4f365.png)
+
+        SUM function
+
+After that, I pressed enter and the total came up immediately. Take a look at the amount of money given out on a weekly basis, that's a lot of money.
+
+![image](https://user-images.githubusercontent.com/109159668/180645133-9bbc69d9-e482-4fe9-a9f0-3d555e0e698f.png)
+
+        Total amount paid per week
+
+What is the average hourly pay?
+I wanted to know the average hourly pay of the employees.to achieve this I used the AVERAGE function. This function carries out arithmetic mean on a given set of numbers.
+
+![image](https://user-images.githubusercontent.com/109159668/180645160-9b48ebe2-674b-4c01-913c-cab0b8a79e46.png)
+
+        AVERAGE function
+
+After that, I press enter and the average shows up immediately. With this I now know that I pay an average of #73.13 per hour to my employees.
+
+![image](https://user-images.githubusercontent.com/109159668/180645179-56918c29-7faf-4af3-925e-b9a4d547bb4f.png)
+
+        Average amount of money paid for hourly wages
+
+### Conclusion
+In conclusion, I've been able to carry out some data analysis on dataset I formed by myself. This is my first article and I'll be building on this project over time. I'll really appreciate feedback and suggestions, thank you.
 
 
 
