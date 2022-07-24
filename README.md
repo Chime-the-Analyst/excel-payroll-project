@@ -61,9 +61,19 @@ Then finally, I added the pay column, which is a calculated column. The pay is t
 
 ![image](https://user-images.githubusercontent.com/109159668/180644909-abead806-51a6-482b-b736-9a6bfaf632b5.png)
 
+        Inner workings of the pay column
 
+## Data Analysis Carried out
+Before I started the analysis I formatted my table to make things easier. This is actually one of the first steps before you start anything
 
+After that, I carried out data analysis on the data set to gain insights to answer some questions which are
+* Who is the highest paid employee?
+* Who is the least paid employee?
+* What is the total amount of money paid to employees?
+* What is the average hourly wage?
 
+### Who's the highest paid employee?
+To find out who that was, I used to MAX function on the pay column to find the maximum value.
 
 
 
